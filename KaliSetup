@@ -1,0 +1,31 @@
+--- 1.
+Obmenu-generator repository for debian 10
+https://software.opensuse.org/download.html?project=home%3AHead_on_a_Stick%3Aobmenu-generator&package=obmenu-generator
+https://wiki.archlinux.org/index.php/openbox
+
+---- 2.
+$PATH config
+https://stackabuse.com/how-to-permanently-set-path-in-linux/
+
+---- 3.
+Systemback
+https://www.linuxbabe.com/ubuntu/install-systemback-ubuntu-18-04-bionic-18-10
+
+---- 4.
+
+pypi pip management python installer
+https://www.tecmint.com/install-pip-in-linux/
+
+Knock.py : Tool gathering Subdomain. 641a5a4b648ff4ff5ae5609e4f9920124bf8d935cd0a3e5ec4238ed2260057c7
+https://github.com/guelfoweb/knock
+
+---- 5.
+Openvas install and setup.
+https://www.kali.org/penetration-testing/openvas-vulnerability-scanning/
+
+[>] Checking for admin user
+[*] Creating admin user
+User created with password 'c951849f-6faa-4822-8df2-114ee8f47155'.
+
+---- 6. Spiderfoot - builtin
+https://null-byte.wonderhowto.com/how-to/use-spiderfoot-for-osint-gathering-0180063/
