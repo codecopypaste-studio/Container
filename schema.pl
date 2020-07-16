@@ -47,12 +47,10 @@ our $SCHEMA = [
 		{end => undef},
 		
 		{beg => ['OSInt tools', 'OSInt Tools']},
-			
 			{beg => ['Spiderfoot', 'Spiderfoot']},
 				{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},
 				{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},
 			{end => undef},
-			
 			{item => ['maltego' , '1.Maltego', 'Maltego']},
         {end => undef},
         
@@ -61,19 +59,28 @@ our $SCHEMA = [
             {item => ['terminator -e"knockpy -h; exec /bin/bash -i"' ,  'Knockpy', 'Knockpy']},
         {end => undef},
     {end => undef},
-   
-    {beg => ['2.Exploitation Tools', 'Exploitation tools']},
-    {item => ['terminator -e"msfconsole; exec /bin/bash -i"' ,  'MetaSploit Console',    'MetaSploit Console']},
-    {end => undef},
-   
-    {beg => ['3.Wireles Attack', 'Wireless Attack tools']},
+
+    {beg => ['2.Wireles Attack', 'Wireless Attack tools']},
         {beg => ['Aircrack-NG', 'Aircrack-NG']},
             {item => ['terminator --command="airodump-ng;exec /bin/bash -i"' ,  'Airodump-ng',    'Airodump-ng']},
             {item => ['terminator --command="sudo airmon-ng check;exec /bin/bash -i"' , 'Airmon-ng check',    'Airmon-ng']},
             {item => ['terminator --command="aireplay-ng;exec /bin/bash -i"' ,  'Aireplay-ng',    'Aireplay-ng']},
         {end => undef},
     {end => undef},
-   
+
+	{beg => ['3.Passwords Attack', 'Passwords Attack tools']},
+		{item => ['terminator -e"crunch -h; exec /bin/bash -i"' , 'Crunch wordlist tool', 'Crunch']},
+		{item => ['terminator -e"hashcat -h; exec /bin/bash -i"' , 'Hashcat Gpu Decypher', 'Hashcat']},
+	{end => undef},
+	
+    {beg => ['X.Exploitation Tools', 'Exploitation tools']},
+    {item => ['terminator -e"msfconsole; exec /bin/bash -i"' , 'MetaSploit Console', 'MetaSploit Console']},
+   # {beg => ['BEeF XSS', 'BEeF XSS']},
+	#	{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},
+	#	{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},
+	#{end => undef},
+    {end => undef},
+    
     {beg => ['Network Tools', 'Network tools']},
         {item => ['terminator -e"ip a; exec /bin/bash -i"' ,    'ip //ifconfig',    'ifconfig']},
     {end => undef},
