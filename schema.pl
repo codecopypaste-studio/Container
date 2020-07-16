@@ -49,8 +49,8 @@ our $SCHEMA = [
 		{beg => ['OSInt tools', 'OSInt Tools']},
 			
 			{beg => ['Spiderfoot', 'Spiderfoot']},
-				{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},##
-				{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},##
+				{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},
+				{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},
 			{end => undef},
 			
 			{item => ['maltego' , '1.Maltego', 'Maltego']},
