@@ -75,10 +75,10 @@ our $SCHEMA = [
 	
     {beg => ['X.Exploitation Tools', 'Exploitation tools']},
     {item => ['terminator -e"msfconsole; exec /bin/bash -i"' , 'MetaSploit Console', 'MetaSploit Console']},
-   # {beg => ['BEeF XSS', 'BEeF XSS']},
-	#	{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},
-	#	{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},
-	#{end => undef},
+    {beg => ['BEeF XSS Framework', 'BEeF XSS Framework']},
+		{item => ['sudo beef-xss' , 'Beef Start', 'Spiderfoot Start']},
+		{item => ['sudo beef-xss-stop', 'Beef Stop', 'Spiderfoot Start']},
+	{end => undef},
     {end => undef},
     
     {beg => ['Network Tools', 'Network tools']},
