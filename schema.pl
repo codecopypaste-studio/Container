@@ -50,7 +50,7 @@ our $SCHEMA = [
 			
 			{beg => ['Spiderfoot', 'Spiderfoot']},
 				{item => ['spiderfoot -l 127.0.0.1:5001' , 'Spiderfoot Start', 'Spiderfoot Start']},##
-				{item => ['spiderfoot-stop' , 'Spiderfoot Stop', 'Spiderfoot Start']},##
+				{item => ['killall sf.py' , 'Spiderfoot Stop', 'Spiderfoot Start']},##
 			{end => undef},
 			
 			{item => ['maltego' , '1.Maltego', 'Maltego']},
