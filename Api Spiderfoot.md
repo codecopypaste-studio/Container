@@ -21,10 +21,10 @@ cdc7d81e547725f8fe07a71a5c32827a1e1bf3a107757790fd95174177153352
 
 #Clearbit: https://dashboard.clearbit.com/login
 
-BuiltWith: https://www.builtwith.com
+**BuiltWith:** https://www.builtwith.com
 2ac15e3a-0b4d-4827-b39e-8614e32e11ae
 
-FraudGuard: https://fraudguard.io
+**FraudGuard:** https://fraudguard.io
 Username
 NDoAKAyWek5UMMQs
 
@@ -34,7 +34,7 @@ X1xi0ED4c9kIzQUk
 IPinfo.io: https://ipinfo.io
 d3d97885d15698
 
-AbuseIPDB.com
+**AbuseIPDB.com**
 2a7c7b174131033f5dc049d04a848eda7f9db7b989442dac1445e4840d12bd2fe3fe27bc8d0d8fbc
 
-<b>Google Custom search api & geocode:</B> AIzaSyBhtKXdFgjSyAuWB-_tBy9ArJ0zszV6NCs
+**Google Custom search api & geocode:** AIzaSyBhtKXdFgjSyAuWB-_tBy9ArJ0zszV6NCs
