@@ -46,3 +46,24 @@ d3d97885d15698
 **Binaryedge.io**
 0ef21ccd-7813-4b42-a2f1-cc66b52b82bf
 
+**Bing Search Api**
+Key 1: 4dcc86568ceb46ec95d58caa8fe23746
+Key 2: 5d8add2605fa462787196ae6708b5bde
+
+**Censys.io**
+API ID
+70f24072-8aba-421d-acf9-622ed135d878
+Secret
+dpMFtYxCms51iv0e8CAUk9QZIAo0USRy
+
+**circl.lu**
+http://circl.lu/services/cve-search/
+
+**Citadel.pw > intelx.io**
+Key:	954fde02-5dfe-4f35-8fa9-0c7790ac22bf
+URL:	https://2.intelx.io/
+
+**clearbit.com**
+secret API sk_4e84071740d367b06ae32d564ecf277c
+publishable API pk_24d1aaa1e94156ce0ad5d96b0ee9859d
+
