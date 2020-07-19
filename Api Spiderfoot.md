@@ -1,22 +1,23 @@
 https://www.spiderfoot.net/documentation/
+
 https://null-byte.wonderhowto.com/how-to/use-spiderfoot-for-osint-gathering-0180063/
 
-Shodan: shodan.io
+**Shodan:** shodan.io
 S1vYoCheqaKQS5hVVgxpeGarULiXGR7X
 
-Project Honey Pot: www.projecthoneypot.org
+**Project Honey Pot:** www.projecthoneypot.org
 mjdbyakpdtdm
 
-Virus total: www.virustotal.com
+**Virus total:** www.virustotal.com
 641a5a4b648ff4ff5ae5609e4f9920124bf8d935cd0a3e5ec4238ed2260057c7
 
-IBM X-Force Exchange: exchange.xforce.ibmcloud.com
+**IBM X-Force Exchange:** exchange.xforce.ibmcloud.com
 658a8660-d357-43a9-beb2-e841aeca9b31
 
-Hunter.io: www.hunter.io
+**Hunter.io:** www.hunter.io
 0c08981005e62db9ff01b02d268d40b46d875395
 
-AlienVault OTX: https://otx.alienvault.com
+**AlienVault OTX:** https://otx.alienvault.com
 cdc7d81e547725f8fe07a71a5c32827a1e1bf3a107757790fd95174177153352
 
 #Clearbit: https://dashboard.clearbit.com/login
@@ -38,3 +39,10 @@ d3d97885d15698
 2a7c7b174131033f5dc049d04a848eda7f9db7b989442dac1445e4840d12bd2fe3fe27bc8d0d8fbc
 
 **Google Custom search api & geocode:** AIzaSyBhtKXdFgjSyAuWB-_tBy9ArJ0zszV6NCs
+
+**Apility.io** //auth0
+550f2103-5dae-4e94-9add-8422426b11e0
+
+**Binaryedge.io**
+0ef21ccd-7813-4b42-a2f1-cc66b52b82bf
+
