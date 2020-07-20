@@ -67,3 +67,11 @@ URL:	https://2.intelx.io/
 secret API sk_4e84071740d367b06ae32d564ecf277c
 publishable API pk_24d1aaa1e94156ce0ad5d96b0ee9859d
 
+**Fullcontact.com**
+fSGTxy7rEeKzZxoW0Cs5nctHIA2RaWOS
+
+**ihavebeenpwned.com**
+158e308b11c24aecb51800bf8303afcd
+
+**iknowwhatyoudownload.com**
+e319124415cc4f0da31bcd3176106588
