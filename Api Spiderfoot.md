@@ -75,3 +75,23 @@ fSGTxy7rEeKzZxoW0Cs5nctHIA2RaWOS
 
 **iknowwhatyoudownload.com**
 e319124415cc4f0da31bcd3176106588
+
+**ipstack.com**
+a31eee0318c52628aea8375a9b755ca5
+
+**metadefender.opswat.com**
+317b14e864889668ea6ff9b9a1e2ad6c
+
+**neutrinoapi.com**
+mrwkeichi bfjl9XjKhFPSPNQdvoOpo3KQH6swFwGXAvCuL7IQKFQp4rkE
+
+**numverify.com**
+f6a0552b2f324c6d8b507a51be3e64b4
+
+
+**pastebin.com**
+f0917314bbb423a64c6288310eb44732
+
+**pulsedive.com**
+db07b995df003c124662c38604406aaf2df399f68046ac40b98ff5f8a49c7790
+
