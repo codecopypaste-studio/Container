@@ -12,7 +12,8 @@ mjdbyakpdtdm
 641a5a4b648ff4ff5ae5609e4f9920124bf8d935cd0a3e5ec4238ed2260057c7
 
 **IBM X-Force Exchange:** exchange.xforce.ibmcloud.com
-658a8660-d357-43a9-beb2-e841aeca9b31
+K 153e2899-7446-4b03-96e9-ce999b19c59d
+P a9e55519-4ab5-40e6-8654-0c26530187f8
 
 **Hunter.io:** www.hunter.io
 0c08981005e62db9ff01b02d268d40b46d875395
@@ -94,4 +95,20 @@ f0917314bbb423a64c6288310eb44732
 
 **pulsedive.com**
 db07b995df003c124662c38604406aaf2df399f68046ac40b98ff5f8a49c7790
+
+**riskiq.com**
+KEY - nw@codecopypaste.studio
+SECRET - d6af4422a3ffd897a10c909e647904b538f38de13c0ec0e4fba1c3da43a4ceaa
+
+**securitytrails.com**
+SKJImm279eePIY1uN57dP12KTv5JGJzB
+
+**Spyonweb.com**
+ojMq47ZFJx3w
+
+**whatcms.org**
+5345ce034f45b9500c85e445872895be1b13ea4b8030ce885c7be8b9a5b69b88f23d6f
+
+**wigle.net**
+QUlENmMzZjFkNzMyZjViNmZiM2IwNDE4YzZkYzkzNTcyMzI6OWM5MmQ4YjY3MWZjNWY5MGI1MDQ0ZWFiNjBiOTRkYmI=
 
