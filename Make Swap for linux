@@ -1,0 +1,66 @@
+How to add Swap File#
+Follow these steps to add 1GB of swap to your server. If you want to add 2GB instead of 1 GB, replace 1G with 2G.
+
+1.Create a file that will be used for swap:
+
+  $sudo fallocate -l 1G /swapfile
+  
+  If faillocate is not installed or if you get an error message saying fallocate failed: Operation not supported then you can use the following command to create the swap file:
+  
+  $sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
+  
+2.Only the root user should be able to write and read the swap file. To set the correct permissions type:
+
+  $sudo chmod 600 /swapfile
+  
+3.Use the mkswap utility to set up the file as Linux swap area:
+
+  $sudo mkswap /swapfile
+
+4.Enable the swap with the following command:
+
+  $sudo swapon /swapfile
+  
+  To make the change permanent open the /etc/fstab file and append the following line:
+  
+  /swapfile swap swap defaults 0 0
+  
+5.To verify that the swap is active, use either the swapon or the free command as shown below:
+
+  $sudo swapon --show
+  
+  or
+  
+  $sudo free -h
+  
+How to adjust the swappiness value#
+Swappiness is a Linux kernel property that defines how often the system will use the swap space. Swappiness can have a value between 0 and 100. A low value will make the kernel to try to avoid swapping whenever possible, while a higher value will make the kernel to use the swap space more aggressively.
+The default swappiness value is 60. You can check the current swappiness value by typing the following command:
+
+  $cat /proc/sys/vm/swappiness
+  
+  output : 60
+  
+While the swappiness value of 60 is OK for most Linux systems, for production servers, you may need to set a lower value.
+
+For example, to set the swappiness value to 10, you would run the following sysctl command:
+
+  $sudo sysctl vm.swappiness=10
+  
+  To make this parameter persistent across reboots append the following line to the /etc/sysctl.conf file:
+  
+  vm.swappiness=10
+  
+The optimal swappiness value depends on your system workload and how the memory is being used. You should adjust this parameter in small increments to find an optimal value.
+
+How to remove Swap File#
+If for any reason you want to deactivate and remove the swap file, follow these steps:
+
+1.First, deactivate the swap by typing:
+  
+  $sudo swapoff -v /swapfile
+  
+2.Remove the swap file entry /swapfile swap swap defaults 0 0 from the /etc/fstab file.
+3.Finally, delete the actual swapfile file using the rm command:
+
+  $sudo rm /swapfile
