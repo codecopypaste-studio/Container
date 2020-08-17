@@ -30,10 +30,11 @@ my $editor = $CONFIG->{editor};
 our $SCHEMA = [
  
     #          COMMAND                 LABEL              ICON
-    {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
+	#{item => ['xdg-open .',       'File Manager', 'system-file-manager']}, Original
+	{item => ['thunar',       'File Manager', 'system-file-manager']},
     {item => ['terminator',            'Terminator',     'utilities-terminal']},
-    {item => ['zaproxy',            'Penknife',     'zaproxy']},
-    #{item => ['xdg-open http://', 'Web Browser',  'web-browser']},
+    {item => ['zaproxy',            'ZAP!',     'zaproxy']},
+    #{item => ['xdg-open http://', 'Web Browser',  'web-browser']}, original
     {item => ['firefox', 'Web Browser',  'web-browser']},
     {item => ['gmrun', 'run ...',  'run menu']},
  
@@ -57,13 +58,17 @@ our $SCHEMA = [
         {beg => ['Web Vulnerability', 'Web Vulnerability']},
             {item => ['terminator -e"dirb; exec /bin/bash -i"' ,  'Dirb',    'Dirb']},
             {item => ['terminator -e"knockpy -h; exec /bin/bash -i"' ,  'Knockpy', 'Knockpy']},
+				{beg => ['Openvas', 'Openvas']},
+				{item => ['terminator --command="echo kali | sudo -S openvas-start check"',  'openvas start service', 'openvas']},
+				{item => ['terminator --command="echo kali | sudo -S openvas-stop check"',  'openvas stop service', 'openvas']},
+				{end => undef},
         {end => undef},
     {end => undef},
 
     {beg => ['2.Wireles Attack', 'Wireless Attack tools']},
         {beg => ['Aircrack-NG', 'Aircrack-NG']},
             {item => ['terminator --command="airodump-ng;exec /bin/bash -i"' ,  'Airodump-ng',    'Airodump-ng']},
-            {item => ['terminator --command="sudo airmon-ng check;exec /bin/bash -i"' , 'Airmon-ng check',    'Airmon-ng']},
+            {item => ['terminator --command="sudo airmon-ng check;exec /bin/bash -i"' , 'Airmon-ng check',    'Airmon-ng']}, #SAMPLE for open terminal command with root prompt
             {item => ['terminator --command="aireplay-ng;exec /bin/bash -i"' ,  'Aireplay-ng',    'Aireplay-ng']},
         {end => undef},
     {end => undef},
@@ -76,8 +81,9 @@ our $SCHEMA = [
     {beg => ['X.Exploitation Tools', 'Exploitation tools']},
     {item => ['terminator -e"msfconsole; exec /bin/bash -i"' , 'MetaSploit Console', 'MetaSploit Console']},
     {beg => ['BEeF XSS Framework', 'BEeF XSS Framework']},
-		{item => ['sudo beef-xss' , 'Beef Start', 'Spiderfoot Start']},
-		{item => ['sudo beef-xss-stop', 'Beef Stop', 'Spiderfoot Start']},
+		#{item => ['terminator --command="sudo beef-xss check;exec /bin/bash -i"' , 'Beef Start3', 'Beef Start']},
+		{item => ['terminator --command="echo kali | sudo -S beef-xss check"' , 'Beef Start', 'Beef Start']}, #SAMPLE For open service and close window
+		{item => ['terminator --command="echo kali | sudo -S beef-xss-stop check"', 'Beef Stop', 'Beef Stop']},
 	{end => undef},
     {end => undef},
     
@@ -132,6 +138,7 @@ our $SCHEMA = [
         {sep  => undef},
  
         {item => ['obmenu-generator -d', 'Refresh cache', 'view-refresh']},
+        {item => ['obmenu-generator -R', 'Refresh menu', 'Menu-refresh']},
       {end => undef},
  
       # Openbox category
