@@ -45,6 +45,7 @@ our $SCHEMA = [
 		
 		{beg => ['Network Scanning', 'Network Scanning']},
 			{item => ['terminator -e"nmap; exec /bin/bash -i"' , 'NMAP', 'nmap']},
+			{item => ['terminator --geometry=0x0 -H -e "echo "kali" | sudo -S /usr/share/zenmap/su-to-zenmap.sh"' , 'Zenmap', 'zenmap']}, #echo 'kali' | sudo -S /usr/share/zenmap/su-to-zenmap.sh
 		{end => undef},
 		
 		{beg => ['OSInt tools', 'OSInt Tools']},
@@ -60,7 +61,7 @@ our $SCHEMA = [
             {item => ['terminator -e"knockpy -h; exec /bin/bash -i"' ,  'Knockpy', 'Knockpy']},
 				{beg => ['Openvas', 'Openvas']},
 				{item => ['terminator --command="echo kali | sudo -S openvas-start check"',  'openvas start service', 'openvas']},
-				{item => ['terminator --command="echo kali | sudo -S openvas-stop check"',  'openvas stop service', 'openvas']},
+				{item => ['terminator -e "echo kali | sudo -S openvas-stop check"',  'openvas stop service', 'openvas']},
 				{end => undef},
         {end => undef},
     {end => undef},
