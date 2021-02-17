@@ -11,4 +11,5 @@ using namespace std;
 			cin >> index[i];
 		 }
 
+	cout << index[2];
 }
