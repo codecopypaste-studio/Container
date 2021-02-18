@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdio.h>
+#include <algorithm>
+
 using namespace std;
 
  int main() {
@@ -11,5 +13,8 @@ using namespace std;
 			cin >> index[i];
 		 }
 
-	cout << index[2];
+	cout << *min_element(index, index + n) << endl;
+	cout << *max_element(index, index + n);
+
+	return 0;
 }
