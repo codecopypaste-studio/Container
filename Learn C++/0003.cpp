@@ -6,12 +6,11 @@
 output จำนวนบรรทัดทั้งสิ้น m บรรทัด แต่ละบรรทัดแสดงสมาชิกของเมทริกซ์ผลลัพธ์ ในรูปแบบตามข้อมูลนำเข้า
 */
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 
  int main() {
- 	int m, n;
+ 	int m; //Row of matrix
+	int n; //Col of matrix
  	
 
 }
-s
