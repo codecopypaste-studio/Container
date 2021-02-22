@@ -12,12 +12,15 @@ using namespace std;
      int m; //Row of matrix
 	 int n; //Col of matrix
 	 
-	 cin << m;
-	 cin << n;
+	 cin >> m;
+	 cin >> n;
 	 
-	 if (m > 0 && m <= 100 && n > 0 && n<100)
-	 for (i = 0; i <= m; i++){
+	 //create ROW by using arrays.
+	 if (m > 0 && m <= 100 && n > 0 && n<100) {
+	 	for (int i = 0; i <= m; i++){
+			 int mtx[m][n];
+			 return mtx[m][n];
+		 }
+	 }
 	 	
- 	
-
 }
