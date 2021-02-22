@@ -9,8 +9,15 @@ output จำนวนบรรทัดทั้งสิ้น m บรรท�
 using namespace std;
 
  int main() {
- 	int m; //Row of matrix
-	int n; //Col of matrix
+     int m; //Row of matrix
+	 int n; //Col of matrix
+	 
+	 cin << m;
+	 cin << n;
+	 
+	 if (m > 0 && m <= 100 && n > 0 && n<100)
+	 for (i = 0; i <= m; i++){
+	 	
  	
 
 }
