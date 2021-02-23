@@ -17,10 +17,10 @@ using namespace std;
 	 
 	 //create ROW by using arrays.
 	 if (m > 0 && m <= 100 && n > 0 && n<100) {
-	 	for (int i = 0; i <= m; i++){
 			 int mtx[m][n];
 			 return mtx[m][n];
-		 }
 	 }
+	 
+	
 	 	
 }
