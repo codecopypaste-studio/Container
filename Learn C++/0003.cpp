@@ -21,6 +21,9 @@ using namespace std;
 			 return mtx[m][n];
 	 }
 	 
-	
+	for (int i = 0; i < m; i++){
+		cin >> mtx[m][i];
+	 }
+
 	 	
 }
