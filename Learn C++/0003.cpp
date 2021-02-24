@@ -15,6 +15,7 @@ using namespace std;
 	 cin >> m;
 	 cin >> n;
 	 
+	 int mtx[m][n];
 	 //create ROW by using arrays.
 	 if (m > 0 && m <= 100 && n > 0 && n<100) {
 			 int mtx[m][n];
