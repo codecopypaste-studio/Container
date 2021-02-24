@@ -22,6 +22,11 @@ using namespace std;
 			 return mtx[m][n];
 	 }
 
+
+//สร้าง m0 ถึง mx ในระหว่างที่สร้างก็ต้องใส่ค่าลงใน array ทีละชุดของ m ไปจนหมด
+
+//เมื่อใส่หมดให้แสดงผลทีละ mx
+
 	//add value to m,n 
 	for (int i = 0; i <= n; i++){
 		cin >> mtx[m][i];
