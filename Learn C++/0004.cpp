@@ -6,5 +6,7 @@ using namespace std;
     string va;
     cin >> va;
 
-    cout << va;
+   int sva = va.size(); //for counting
+
+   
  }
