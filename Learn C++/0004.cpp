@@ -8,5 +8,6 @@ using namespace std;
 
    int sva = va.size(); //for counting
 
-   
+  //loop(sva) with compare string[] vs array a A to make decision(if else) to print message 
+  if(sva > 0) 
  }
