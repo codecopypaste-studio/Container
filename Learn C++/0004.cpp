@@ -38,7 +38,10 @@ using namespace std;
       cout << "All Capital Letter";
    } else if(capital == false && small == true){
       cout << "All small Letter";
-   } else {
+   } else if(capital == true || small == true) {
       cout << "Mix";
+   } else {
+           
    }
+   return 0;
  }
