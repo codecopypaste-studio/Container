@@ -41,7 +41,7 @@ using namespace std;
    } else if(capital == true || small == true) {
       cout << "Mix";
    } else {
-           
+        cout << "nothing";
    }
-   return 0;
+
  }
