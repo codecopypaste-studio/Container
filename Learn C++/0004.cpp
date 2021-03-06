@@ -7,6 +7,7 @@ using namespace std;
     string upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     string under = "abcdefghijklmnopqrstuvwxyz";
     bool capital; bool small; //use in decision
+    bool exception;//use to continue checking letter
    
     cin >> input;
 
@@ -16,15 +17,12 @@ using namespace std;
   //if(sizein > 0)
 
   //expression to check capital size text
-  if( for(int i = 0; i < sizein; i++){
+  for(int i = 0; i < sizein; i++){
   	for(int n = 0; n < 26; n++){
   		if (input[i] != upper[n]  || input[i] != under[n]){
-  			capital = false;
-         small = false;}
+  			exception = false;}
   	}
-  }) {
-
-  } else {
+  }
 
   //expression to check capital size text
   for (int i = 0; i < sizein; i++){
@@ -41,7 +39,7 @@ using namespace std;
   			   small = true;}
   	}
   }
-  }
+
    cout << capital << small;
 
    //Decision output answer
