@@ -7,7 +7,7 @@ using namespace std;
     string upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     string under = "abcdefghijklmnopqrstuvwxyz";
     bool capital; bool small; //use in decision
-    bool exception;//use to continue checking letter
+    bool exception = false;//use to continue checking letter
    
     cin >> input;
 
@@ -20,27 +20,32 @@ using namespace std;
   for(int i = 0; i < sizein; i++){
   	for(int n = 0; n < 26; n++){
   		if (input[i] != upper[n]  || input[i] != under[n]){
-  			exception = false;}
+  			exception = true;
+      }
   	}
   }
 
-  //expression to check capital size text
-  for (int i = 0; i < sizein; i++){
-  	for(int n = 0; n < 26; n++){
-  		if (input[i] == upper[n]){
-  			capital = true;}
-  	}
-  }
+   if (exception) {
+ 
+   } else {
+     //expression to check capital size text
+     for (int i = 0; i < sizein; i++){
+     	for(int n = 0; n < 26; n++){
+     		if (input[i] == upper[n]){
+     			capital = true;}
+     	}
+     }
 
-   //expression to check small size text
-   for (int i = 0; i < sizein; i++){
-  	   for (int n = 0; n < 26; n++){
-  		   if (input[i] == under[n]){
-  			   small = true;}
-  	}
-  }
+     //expression to check small size text
+      for (int i = 0; i < sizein; i++){
+     	   for (int n = 0; n < 26; n++){
+     		   if (input[i] == under[n]){
+     			   small = true;}
+     	}
+     }
+   }
 
-   cout << capital << small;
+   cout << sizein << exception;
 
    //Decision output answer
    if (capital == true && small == false){
@@ -49,8 +54,9 @@ using namespace std;
       cout << "All small Letter";
    } else if(capital == true || small == true) {
       cout << "Mix";
-   } else {
-        cout << "nothing";
+ //  } else {
+ //       cout << "nothing";
    }
 
+   return 0;
  }
