@@ -19,8 +19,10 @@ using namespace std;
   //expression to check non letter text
   for(int i = 0; i < sizein; i++){
   	for(int n = 0; n < 26; n++){
-  		if (input[i] != upper[n]){exception1 = true; break;}
-      if (input[i] != under[n]){exception2 = true; break;}
+  		if (input[i] != upper[n]){exception1 = true;}
+         cout << input[i] << upper[n] << exception1 << endl;
+      if (input[i] != under[n]){exception2 = true;}
+         cout << input[i] << under[n] << exception2 << endl;
   	}
   }
 
