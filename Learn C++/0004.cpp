@@ -7,8 +7,8 @@ using namespace std;
     string upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     string under = "abcdefghijklmnopqrstuvwxyz";
     bool capital; bool small; //use in decision
-    bool pass1 = false;//use to continue checking letter
-    bool pass2 = false;
+    bool pass1;//use to continue checking letter
+    bool pass2;
     cin >> input;
 
    int sizein = input.size(); //for counting
@@ -20,16 +20,19 @@ using namespace std;
   for(int i = 0; i < sizein; i++){
   	for(int n = 0; n < 26; n++){
   		if (input[i] == upper[n]){pass1 = true;break;} else {pass1 = false;}
-         cout << input[i] << upper[n] << pass1 << endl;
-         
-      if (input[i] == under[n]){pass2 = true;break;} else {pass2 = false;}
+         cout << input[i] << upper[n] << pass1 << endl;         
+  	}
+  }
+  
+    for(int i = 0; i < sizein; i++){
+  	for(int n = 0; n < 26; n++){
+      	if (input[i] == under[n]){pass2 = true;break;} else {pass2 = false;}
          cout << input[i] << under[n] << pass2 << endl;
-         
   	}
   }
       cout << pass1 << pass2 << endl;
 
-   if (pass1 && pass2) {
+   if (pass1 || pass2) {
      //expression to check capital size text
      for (int i = 0; i < sizein; i++){
      	for(int n = 0; n < 26; n++){
