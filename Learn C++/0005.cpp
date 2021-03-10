@@ -1,11 +1,14 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
  int main() {
-	int a; int b; int c;
+	double a,b; double c;
 	cin >> a >> b;
-	
-	cout << a << b;
+
+	a = a*a; b = b*b;
+	c = sqrt(a+b);
+ 	printf("%.6lf",c);
 	return 0;
 }
