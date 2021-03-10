@@ -19,10 +19,12 @@ using namespace std;
   //expression to check non letter text
   for(int i = 0; i < sizein; i++){
   	for(int n = 0; n < 26; n++){
-  		if (input[i] == upper[n] || input[i] == under[n]){pass1 = true;break;
-        } else if (n == 25){pass1 = false;goto endprog;}      
+  		if (input[i] == upper[n] || input[i] == under[n]){pass1 = true;break;} else if (n == 25){pass1 = false;goto endprog;}
+         cout << input[i] << upper[n] << under[n] << pass1 << n << endl;         
   	}
   }
+  
+      cout << pass1  << endl;
 
    if (pass1) {
      //expression to check capital size text
@@ -41,7 +43,6 @@ using namespace std;
      	}
      }
 
-      //decision
       if (capital == true && small == false){
          cout << "All Capital Letter";
       } else if(capital == false && small == true){
@@ -51,5 +52,6 @@ using namespace std;
       }
    }
    endprog:
+   cout << sizein << pass1;   
    return 0;
  }
