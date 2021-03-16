@@ -4,16 +4,16 @@
 using namespace std;
 
  int main(){
-    int r;
-     scanf ("%d", &r);
+    double r;
+     scanf ("%lf", &r);
 
-     //Euclidean geometry
-     float eu = sqrt(r*r + r*r);
+     //Euclidean geometry area
+     double eu = 3.1415926535897932384626433832795*(r*r); //area of circle 
 
-    //Taxicab geometry
-     float taxi = r + r;
+    //Taxicab geometry area
+     double txi = (r*r)*(0.5)*4; //area of triangle x 4
 
-    printf("%f \n", eu);
-    printf("%f", taxi);
+    printf("%lf \n", eu);
+    printf("%lf \n", txi);
      return 0;
  }
