@@ -1,18 +1,20 @@
 #include <cstdio>
+#include <utility>
 #include <string>
 
 using namespace std;
 
 int main(){
-    int arr1[3];
-    string arr2[3];
-    //int a, b, c;
+    int m = 1, n = 2;
+    pair<int, char> arr[m][n]; 
 
-    scanf("%d %d %d", &arr1[0], &arr1[1], &arr1[2]);
-    scanf("%s%s%s", &arr2[0], &arr2[1], &arr2[2]);
-    
-     printf("%d %d %d", arr1[0], arr1[1], arr1[2]);
-     printf("%s %s %s", arr2[0], arr2[1], arr2[2]);
+    scanf("%d %d %d", &arr[0][0], &arr[0][1], &arr[0][2]);
+    scanf("%s%s%s", &arr[1][0], &arr[0][1], &arr[0][2]);
 
+//    for(int im = 0; im < m; im++){ 
+//        for (int in = 0; in < n; in++){
+//            scanf("%d %d %d", &)
+//        }
+//    }
     return 0;
 }
