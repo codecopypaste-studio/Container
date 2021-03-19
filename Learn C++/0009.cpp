@@ -9,10 +9,10 @@ int main(){
     string w1,w2,w3;
     
     scanf("%d %d %d", &v1, &v2, &v3);
-    scanf("%1s %1s %1s", &w1, &w2, &w3);
+    scanf("%c %c %c", &w1, &w2, &w3);
 
     printf("print value: %d %d %d \n", v1, v2, v3);
-    printf("print value: %1s%1s%1s", w1, w2, w3);
+    printf("print value: %c %c %c", w1, w2, w3);
 
 //    scanf("%d %d %d", &arr[0][0], &arr[0][1], &arr[0][2]);
 //   scanf("%s%s%s", &arr[1][0], &arr[0][1], &arr[0][2]);
