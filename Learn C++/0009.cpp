@@ -5,14 +5,14 @@
 using namespace std;
 
 int main(){
-    int num[3];
-    char word[3];
+    int a[3];
+    char b[3];
 
-    for(int i = 0; i < 3; i++) {scanf("%d", &num[0]);}
-    for(int i = 0; i < 3; i++) {scanf("%c", word[0]);}
+    for(int i=0; i < 3; i++) {scanf("%d", &a[0]);}
+    //for(int i=0; i < 3; i++) {scanf("%c", &b[0]);}
 
-    printf("%d %d %d",num[0], num[1], num[2]);
-    printf("%c%c%c", word[0], word[1], word[2]);
+    for(int i = 0; i < 3; i++){printf("%d",a[i]);}
+    //for(int i = 0; i < 3; i++){printf("%c", b[i]);}
 
 //    for(int im = 0; im < m; im++){ 
 //        for (int in = 0; in < n; in++){
