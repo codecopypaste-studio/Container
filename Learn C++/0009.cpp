@@ -8,11 +8,11 @@ int main(){
     char b[3];
 
     for(int i=0; i<3; i++) {scanf("%d", &a[i]);}
-    scanf("%c", &b);
+    //scanf("%s", &b);
 
-    for(int i=0; i<3; i++) {printf("%d", a[i]);}
+    for(int i=0; i<3; i++) {printf("%d ", a[i]);}
     //for(int i=0; i<3; i++) {printf("%c", b[i]);}
-    printf("%c", b);
+    //printf("%s", b);
 
 //    for(int im = 0; im < m; im++){ 
 //        for (int in = 0; in < n; in++){
