@@ -4,10 +4,16 @@
 using namespace std;
 
 int main(){
-    int a[3];
-    char b[3];
+    int num[3],a,b,c;
+    char cha[3];
 
-    for(int i=0; i<3; i++) {scanf("%d", &a[i]);}
+	//receive int input 
+    for(int i=0; i<3; i++) {scanf("%d", &num[i]);}
+    
+    
+    if(num[0]<num[1] && num[0]<num[2]){
+    	a=num[0];
+    }
     //scanf("%s", &b);
 
     for(int i=0; i<3; i++) {printf("%d ", a[i]);}
@@ -19,5 +25,5 @@ int main(){
 //            scanf("%d %d %d", &)
 //        }
 //    }
-    //return 0;
+    return 0;
 }
