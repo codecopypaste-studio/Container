@@ -49,6 +49,7 @@ int main(){
 //    }
 
 	cout << num[0] << ',' << num[1] << ',' << num[2] << endl;
-    cout << a << ',' << b << ',' << c;
+    cout << a << ',' << b << ',' << c << endl;
+    cout << cha;
     return 0;
 }
