@@ -35,8 +35,14 @@ int main(){
    // 	a=num[0];
     //}
     
-   
+   //sample C A B
     scanf("%s", &cha);
+    
+    for(int i=0; i<3; i++){
+    	char select = cha[i];
+    	if(select == 'A'){cout << a;}
+    	else if(select == 'B'){cout << b;}
+    	else if(select == 'C'){cout << c;}}
 
 //    for(int i=0; i<3; i++) {printf("%d ", a[i]);}
     //for(int i=0; i<3; i++) {printf("%c", b[i]);}
@@ -48,8 +54,8 @@ int main(){
 //        }
 //    }
 
-	cout << num[0] << ',' << num[1] << ',' << num[2] << endl;
-    cout << a << ',' << b << ',' << c << endl;
-    cout << cha;
+//	cout << num[0] << ',' << num[1] << ',' << num[2] << endl;
+//    cout << a << ',' << b << ',' << c << endl;
+//    cout << cha;
     return 0;
 }
