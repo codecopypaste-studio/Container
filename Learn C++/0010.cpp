@@ -15,11 +15,27 @@ int main(){
 	//run swap position trough n time by type of string that's read.
 	for(int i=0; i<n; i++){
 		if(txt=="A"){
-			
+			int tm1 = box1;
+			int tm2 = box2;
+			box1 = tm2;
+			box2 = tm1;
+		}
+		else if(txt=="B"){
+			int tm2 = box2;
+			int tm3 = box3;
+			box2 = tm3;
+			box3 = tm2;
+		}
+		else if(txt=="C"){
+			int tm1 = box1;
+			int tm3 = box3;
+			box1 = tm3;
+			box3 = tm1;
 		}
 	}
 	
-	//formation a
+	//find value and print
+	cout << box1 << " " << box2 << " " << box3;
 	
 	
 	
