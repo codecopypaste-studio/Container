@@ -35,8 +35,9 @@ int main(){
 	}
 	
 	//find value and print
-	cout << box1 << " " << box2 << " " << box3;
+	if(box1 == 1){cout<<1;}
+	else if(box2==1){cout<<2;}
+	else if(box3==1){cout<<3;}
 	
-	
-	
+	return 0;
 }
