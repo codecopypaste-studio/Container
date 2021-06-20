@@ -24,7 +24,10 @@ int main(){
 			a++;
 		}
 		else
-			for(int n=i+1; n<10; n++)
+			for(int n=0; n<10; n++){
+				for(int o=n+1)
+				if(sort[]!=mod[n])
+			}
 	}
 
 
