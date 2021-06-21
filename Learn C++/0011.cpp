@@ -3,30 +3,32 @@ using namespace std;
 
 int main(){
 	//input integer wih 1 line 1 value
-	int input[10];
-	for (int i=0; i<10; i++){
+	int input[5];
+	for (int i=0; i<5; i++){
 		cin >> input[i];
 	}
 
 	//modulo input with 42
-	int mod[10];
-	for(int i=0; i<10; i++){
+	int mod[5];
+	for(int i=0; i<5; i++){
 		 mod[i] = input[i] % 3;
 	}
 	//compare unmatch fraction value and counting the number as output
 	//find differnce of i0 - i9 (10 position)
-	int sort[10];
+	int sort[5];
 	int a=0;
 	
-	for(int i=0; i<3; i++){
+	for(int i=0; i<5; i++){
 		if(i==0){
 			sort[a]=mod[i];
-			a++;
-		}
+			a++;}
 		else
-			for(int n=0; n<10; n++){
-				for(int o=n+1)
-				if(sort[]!=mod[n])
+			for(int n=a; n<5; n++){
+				if(mod[i]!=sort[n]){
+					sort[a]=mod[i];
+					a++;
+					break;
+				}
 			}
 	}
 
@@ -52,17 +54,19 @@ int main(){
 	}
 */
 
-	for(int i = 0; i<10; i++){
+	for(int i = 0; i<5; i++){
 	cout << input[i] << " ";
 	}
 	
 	cout << "\n";
 
-	for(int i = 0; i<10; i++){
+	for(int i = 0; i<5; i++){
 	cout << mod[i] << " ";
 	}
 	
 	cout << "\n";
 	
-	cout << a;
+	for(int i = 0; i<5; i++){
+	cout << sort[i] << " ";
+	}
 }
