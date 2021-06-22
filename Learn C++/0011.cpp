@@ -21,14 +21,16 @@ int main(){
 	for(int i=0; i<5; i++){
 		if(i==0){
 			sort[a]=mod[i];
-			a++;}
+			a++;
+			}
 		else
 			for(int n=a; n<5; n++){
-				if(mod[i]!=sort[n]){
-					sort[a]=mod[i];
+				if(mod[i]==sort[n]){
+					}
+				else {
+					sort[a]=mod[n];
 					a++;
-					break;
-				}
+					}
 			}
 	}
 
