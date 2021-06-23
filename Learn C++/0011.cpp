@@ -22,15 +22,15 @@ int main(){
 		if(i==0){
 			sort[a]=mod[i];
 			a++;
-			}
+			continue;}
 		else
 			for(int n=a; n<5; n++){
 				if(mod[i]==sort[n]){
-					}
+					continue;}
 				else {
 					sort[a]=mod[n];
 					a++;
-					}
+					continue;}
 			}
 	}
 
