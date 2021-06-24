@@ -4,34 +4,46 @@ using namespace std;
 int main(){
 	//input integer wih 1 line 1 value
 	int input[5];
-	for (int i=0; i<5; i++){
+	for (int i=0; i<5; i++)
+	{
 		cin >> input[i];
 	}
 
 	//modulo input with 42
 	int mod[5];
-	for(int i=0; i<5; i++){
+	for(int i=0; i<5; i++)
+	{
 		 mod[i] = input[i] % 3;
 	}
+	
 	//compare unmatch fraction value and counting the number as output
 	//find differnce of i0 - i9 (10 position)
 	int sort[5];
 	int a=0;
 	
-	for(int i=0; i<5; i++){
-		if(i==0){
+	for(int i=0; i<5; i++)
+	{
+		if(i==0)
+		{
 			sort[a]=mod[i];
 			a++;
-			continue;}
+			//continue;
+		}
 		else
-			for(int n=a; n<5; n++){
-				if(mod[i]==sort[n]){
-					continue;}
-				else {
+		{
+			for(int n=a; n<5; n++)
+			{
+				if(mod[i]==sort[n])
+				{
+					//nouse
+				}
+				else
+				{
 					sort[a]=mod[n];
 					a++;
-					continue;}
+				}
 			}
+		}
 	}
 
 
@@ -56,19 +68,22 @@ int main(){
 	}
 */
 
-	for(int i = 0; i<5; i++){
+	for(int i = 0; i<5; i++)
+	{
 	cout << input[i] << " ";
 	}
 	
 	cout << "\n";
 
-	for(int i = 0; i<5; i++){
+	for(int i = 0; i<5; i++)
+	{
 	cout << mod[i] << " ";
 	}
 	
 	cout << "\n";
 	
-	for(int i = 0; i<5; i++){
+	for(int i = 0; i<5; i++)
+	{
 	cout << sort[i] << " ";
 	}
 }
