@@ -33,14 +33,15 @@ int main(){
 		{
 			for(int n=a; n<5; n++)
 			{
-				if(mod[i]==sort[n])
-				{
-					//nouse
-				}
-				else
+				if(mod[i]!=sort[n])
 				{
 					sort[a]=mod[n];
 					a++;
+				}
+				else
+				{
+					break;
+					//nouse
 				}
 			}
 		}
