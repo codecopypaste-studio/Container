@@ -18,31 +18,31 @@ int main(){
 	
 	//compare unmatch fraction value and counting the number as output
 	//find differnce of i0 - i9 (10 position)
-	int sort[5];
+	int sort[5]={};
 	int a=0;
 	
 	for(int i=0; i<5; i++)
 	{
 		if(i==0)
-		{
+		{	
 			sort[a]=mod[i];
 			a++;
 			//continue;
 		}
-		else
+		else if(i>0)
 		{
-			for(int n=a; n<5; n++)
+			for(int n=0; n<a; n++)
 			{
-				if(mod[i]!=sort[n])
-				{
-					sort[a]=mod[n];
-					a++;
-				}
-				else
-				{
-					break;
-					//nouse
-				}
+//				if(mod[i]!=sort[n])
+//				{
+//					sort[a]=mod[n];
+//					a++;
+//				}
+//				else
+//				{
+//					//continue;
+//					//nouse
+//				}
 			}
 		}
 	}
