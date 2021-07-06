@@ -31,19 +31,20 @@ int main(){
 		}
 		else if(i>0)
 		{
-			for(int n=0; n<a; n++)
-			{
-//				if(mod[i]!=sort[n])
-//				{
-//					sort[a]=mod[n];
-//					a++;
-//				}
+			int n=0;
+//			for(int n=0; n<a; n++)
+//			{
+				if(mod[i]!=sort[n])
+				{
+					sort[a]=mod[n];
+					a++;
+				}
 //				else
 //				{
 //					//continue;
 //					//nouse
 //				}
-			}
+//			}
 		}
 	}
 
