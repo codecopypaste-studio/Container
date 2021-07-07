@@ -26,28 +26,33 @@ int main(){
 		if(i==0)
 		{	
 			sort[a]=mod[i];
+			cout << "start: ";
+			cout << a << " ";
 			a++;
 			//continue;
 		}
-		else if(i>0)
+		else
 		{
-			int n=0;
-//			for(int n=0; n<a; n++)
-//			{
-				if(mod[i]!=sort[n])
+			for(int n=0; n<a; n++)
+			{
+				if(a<5)
 				{
 					sort[a]=mod[n];
 					a++;
+					//continue;
 				}
-//				else
-//				{
-//					//continue;
-//					//nouse
-//				}
-//			}
+				else
+				{
+					//continue;
+					//nouse
+				}
+
+				cout << a << " ";
+			}
 		}
 	}
-
+	
+	cout << "end. ";
 
 /*
 	//set first value for V-array
