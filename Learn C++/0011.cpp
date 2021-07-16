@@ -43,7 +43,8 @@ int main(){
 				}
 				else
 				{
-					//continue;
+					a = 0;
+					break;
 					//nouse
 				}
 
